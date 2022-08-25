@@ -13,13 +13,14 @@ Alshamlan, H. M., Badr, G. H., & Alohali, Y. A. (2015). Genetic Bee Colony (GBC)
 Computational biology and chemistry, 56, 49-60.
 
 #### 3 .GBC new  - 
-which is suggested imrprovment for the original algorithm
-Li, Mengmeng, et al. "Fast hybrid dimensionality reduction method for classification based on feature selection and grouped feature extraction."
-Expert Systems with Applications 150 (2020): 113277.
+which is suggested imrprovment for GBC original algorithm
+
 
 
 #### 4 .hybrid_DReductionC  - 
-Implementation of feature selection algorithm Descibed in 
+Implementation of feature selection algorithm Descibed in -
+Li, Mengmeng, et al. "Fast hybrid dimensionality reduction method for classification based on feature selection and grouped feature extraction."
+Expert Systems with Applications 150 (2020): 113277.
 
 ####  5.Q5 - statistics  - 
 Statistics for the comparing the algorithms performence
