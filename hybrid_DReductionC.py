@@ -226,7 +226,7 @@ class hybrid_DReductionC():
         self.final = final
         not_chose_columns = list(mydataframe.drop(self.targetclass, axis=1).columns.difference(self.final.columns))
         not_chosen = pd.DataFrame(0, index=np.arange(1), columns=not_chose_columns)
-        self.final = pd.concat([self.final, not_chosen], axis=1).T.sort_values(0).T
+        self.final = pd.concat([self.final, not_chosen], axis=1).T.sort_values(0,ascending=False).T
         self.all_features = self.final.reindex(sorted(self.final.columns), axis=1).values
         self.Fitted = True
 
